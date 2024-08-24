@@ -5,13 +5,22 @@
 
   /** @param {MouseEvent} event */
 	function toggleMenu(event) {
+    event.stopPropagation();
 		open = !open;
 	}
+
+  /** @param {KeyDownEvent}*/
+  function onKeyDown(event) {
+    if (event.key === 'Escape') {
+      open = false;
+    }
+  }
 </script>
-<nav class:open>
+<nav class:open on:click={() => (open = false)}>
   <div class="links">
+    <a href="/">Home</a>
     <a href="">Projects</a>
-    <a href="">About</a>
+    <a href="/about">About</a>
   </div>
   <button on:click={toggleMenu}>
     <span class="material-symbols-sharp">
@@ -20,10 +29,12 @@
   </button>
 </nav>
 
+<svelte:window on:keydown|preventDefault={onKeyDown} />
+
 <style>
   nav {
     --button-size: 36px;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     top: 0;
     right: 12px;
@@ -60,6 +71,11 @@
     transition: transform 400ms cubic-bezier(0.04, 1.33, 0.98, 1);
   }
 
+  button:focus-visible {
+    outline: 1px solid var(--background);
+    border: 2px solid var(--cyan);
+  }
+
   nav.open button {
     transform: rotate(0deg);
   }
@@ -79,6 +95,7 @@
     width: fit-content;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: 1.4em;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
 

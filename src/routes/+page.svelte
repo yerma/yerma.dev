@@ -1,5 +1,10 @@
+<script>
+  import { slide } from 'svelte/transition';
+  import { quintOut } from 'svelte/easing';
+</script>
+
 <div class="home">
-  <main>
+  <main in:slide={{delay: 250, duration: 300, easing: quintOut, axis: 'x'}}>
     <h1>yerma<span>.dev</span></h1>
   </main>
 </div>
