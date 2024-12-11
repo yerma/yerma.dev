@@ -27,7 +27,11 @@
     </div>
     {#if selectedIndex !== null}
       <div class="work-details">
-        <h2>{works[selectedIndex].title}</h2>
+        <h2>
+          <small>{works[selectedIndex].category}</small>
+          {works[selectedIndex].title}
+        </h2>
+      
         <div class="text-block">
           <p >{works[selectedIndex].description}</p>
           {#if works[selectedIndex].url}
@@ -96,11 +100,24 @@
     width: 640px;
   }
 
+  .work-details small {
+    background: var(--cyan);
+    padding: 1px 6px 2px;
+    font-weight: 500;
+    color: var(--background);
+    line-height: 1;
+    font-size: 0.9rem;
+    border-radius: 2px;
+    display: block;
+    width: fit-content;
+    margin-bottom: 16px;
+  }
+
   .work-details a {
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-top: 16px;
+    margin-top: 8px;
     text-decoration: none;
     cursor: pointer;
   }

@@ -13,6 +13,7 @@
     <div class="text-block">
       <p>I'm <em>currently</em> a web developer based in Chile.</p>
       <p>I'm also a school teacher and graphic designer. Dedicated almost exclusively to web development since 2016, I'm always eager to integrate this diverse range of interests and abilities into any project.</p>
+      
       <p>English · Español · Português</p>
     </div>
   </main>
@@ -30,6 +31,7 @@
   }
 
   .text-block {
+    margin-top: 24px;
     margin-left: 20px;
     padding-left: 20px;
     border-left: 2px solid var(--cyan);

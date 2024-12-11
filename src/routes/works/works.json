@@ -20,7 +20,7 @@
     "client": "",
     "description": "Juego interactivo para preescolares",
     "imgUrl": "animals-02.jpg",
-    "category": "web",
+    "category": "web development",
     "date": "2017",
     "detailImgs": [
       "animals-01.jpg",
@@ -34,7 +34,8 @@
     "client": "Tremün - Material Educativo",
     "description": "Sitio web en base a HTML5, CSS y JavaScript.",
     "imgUrl": "webtremun-01.jpg",
-    "category": "web",
+    "imgUrl": "webtremun-01.jpg",
+    "category": "web development",
     "date": "2017",
     "detailImgs": [
       "webtremun-01.jpg",
@@ -48,12 +49,26 @@
     "client": "Motion Graphics, Duoc UC",
     "description": "Realizado en Adobe After Effects",
     "imgUrl": "rev-fotografica-01.jpg",
-    "category": "motion-graphics",
+    "category": "motion graphics",
     "date": "2016",
     "detailImgs": [
       "rev-fotografica-02.jpg",
       "rev-fotografica-01.jpg"
     ],
     "url": "https://vimeo.com/192484323"
+  },
+  {
+    "id": "covid-animation",
+    "title": "Cuidado de pacientes COVID-19",
+    "client": "Comité de Emergencia Territorial La Granja",
+    "description": "Realizado en Adobe After Effects",
+    "imgUrl": "covid-01.png",
+    "category": "motion graphics",
+    "date": "2021",
+    "detailImgs": [
+      "rev-fotografica-02.jpg",
+      "rev-fotografica-01.jpg"
+    ],
+    "url": "https://www.facebook.com/share/v/1A1bigaR2g/"
   }
 ]
