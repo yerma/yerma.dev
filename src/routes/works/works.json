@@ -1,0 +1,59 @@
+[
+  {
+    "id": "libro-franklin",
+    "title": "Barrio Franklin",
+    "client": "Taller de Edición de Publicaciones - Duoc UC",
+    "description": "Investigación, fotografía, edición del libro, diseño de packaging y encuadernación.",
+    "imgUrl": "franklin-02.jpg",
+    "category": "editorial",
+    "date": "2015",
+    "detailImgs": [
+      "franklin-01.jpg",
+      "franklin-04.jpg",
+      "franklin-03.jpg"
+    ],
+    "url": "https://issuu.com/yermainarayavillacura/docs/barrio_franklin"
+  },
+  {
+    "id": "web-animals",
+    "title": "Animals",
+    "client": "",
+    "description": "Juego interactivo para preescolares",
+    "imgUrl": "animals-02.jpg",
+    "category": "web",
+    "date": "2017",
+    "detailImgs": [
+      "animals-01.jpg",
+      "animals-02.jpg"
+    ],
+    "url": "https://yerma.github.io/animals/"
+  },
+  {
+    "id": "web-tremun",
+    "title": "Web Tremün",
+    "client": "Tremün - Material Educativo",
+    "description": "Sitio web en base a HTML5, CSS y JavaScript.",
+    "imgUrl": "webtremun-01.jpg",
+    "category": "web",
+    "date": "2017",
+    "detailImgs": [
+      "webtremun-01.jpg",
+      "webtremun-02.jpg"
+    ],
+    "url": "https://yerma.github.io/webtremun/"
+  },
+  {
+    "id": "rev-fotografica",
+    "title": "Revolución Fotográfica",
+    "client": "Motion Graphics, Duoc UC",
+    "description": "Realizado en Adobe After Effects",
+    "imgUrl": "rev-fotografica-01.jpg",
+    "category": "motion-graphics",
+    "date": "2016",
+    "detailImgs": [
+      "rev-fotografica-02.jpg",
+      "rev-fotografica-01.jpg"
+    ],
+    "url": "https://vimeo.com/192484323"
+  }
+]

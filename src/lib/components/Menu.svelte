@@ -19,7 +19,7 @@
 <nav class:open on:click={() => (open = false)}>
   <div class="links">
     <a href="/">Home</a>
-    <a href="">Projects</a>
+    <a href="/works">Works</a>
     <a href="/about">About</a>
   </div>
   <button on:click={toggleMenu}>
@@ -46,7 +46,7 @@
     
     transform-origin: bottom right;
     transform: rotate(86deg);
-    transition: all 400ms cubic-bezier(0.04, 1.33, 0.98, 1);
+    transition: all 500ms cubic-bezier(0.04, 1.33, 0.98, 1);
   }
 
   nav.open {

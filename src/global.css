@@ -5,9 +5,10 @@
   --dark-blue: #023373;
   --darkest-blue: #022340;
   --cyan: #30F2DF;
+  --dark-gray: #282837;
 
   /* Color intentions */
-  --background: var(--darkest-blue);
+  --background: var(--dark-gray);
   --text-color: white;
   --link-color: var(--cyan);
 
