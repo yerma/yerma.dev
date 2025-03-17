@@ -1,4 +1,5 @@
 <script>
+  import { BASE } from '$lib/utils/constants';
   /** @type {boolean} */
   export let open = false;
   let active = open;
@@ -18,9 +19,9 @@
 </script>
 <nav class:open on:click={() => (open = false)}>
   <div class="links">
-    <a href="/">Home</a>
-    <a href="/works">Works</a>
-    <a href="/about">About</a>
+    <a href={`${BASE}/`}>Home</a>
+    <a href={`${BASE}/works`}>Works</a>
+    <a href={`${BASE}/about`}>About</a>
   </div>
   <button on:click={toggleMenu}>
     <span class="material-symbols-sharp">

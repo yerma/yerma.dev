@@ -1,4 +1,5 @@
 <script>
+  import { BASE } from '$lib/utils/constants';
   import { slide } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
 </script>
@@ -7,8 +8,8 @@
   <main in:slide={{delay: 250, duration: 300, easing: quintOut, axis: 'y'}}>
     <h1>yerma<span>.dev</span></h1>
     <nav>
-      <a href="/works">Works</a>
-      <a href="/about">About</a>
+      <a href={`${BASE}/works`}>Works</a>
+      <a href={`${BASE}/about`}>About</a>
     </nav>
   </main>
 </div>
