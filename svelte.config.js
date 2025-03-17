@@ -19,7 +19,7 @@ const config = {
 			$utils: './src/utils'
 		},
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/yerma-dev' : ''
+			base: process.env.NODE_ENV === 'production' ? '/yerma.dev' : ''
 		}
 	}
 };
