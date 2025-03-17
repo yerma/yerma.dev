@@ -1,5 +1,5 @@
 <script>
-  import { BASE } from '$lib/utils/constants';
+  import { BASE } from '$utils/constants';
   import { slide } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
 </script>

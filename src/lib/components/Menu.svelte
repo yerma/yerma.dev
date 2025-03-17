@@ -1,5 +1,5 @@
 <script>
-  import { BASE } from '$lib/utils/constants';
+  import { BASE } from '$utils/constants';
   /** @type {boolean} */
   export let open = false;
   let active = open;
