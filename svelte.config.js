@@ -18,9 +18,9 @@ const config = {
 			$lib: './src/lib',
 			$utils: './src/utils'
 		},
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/yerma.dev' : ''
-		}
+		// paths: {
+		// 	base: process.env.NODE_ENV === 'production' ? '/yerma.dev' : ''
+		// }
 	}
 };
 
