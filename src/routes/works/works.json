@@ -26,14 +26,13 @@
       "animals-01.jpg",
       "animals-02.jpg"
     ],
-    "url": "https://yerma.github.io/animals/"
+    "url": "https://animals.yerma.dev"
   },
   {
     "id": "web-tremun",
     "title": "Web Tremün",
     "client": "Tremün - Material Educativo",
     "description": "Sitio web en base a HTML5, CSS y JavaScript.",
-    "imgUrl": "webtremun-01.jpg",
     "imgUrl": "webtremun-01.jpg",
     "category": "web development",
     "date": "2017",

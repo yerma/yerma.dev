@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { BASE } from '$utils/constants';
   import { slide } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
   import works from "./works.json";
@@ -21,7 +20,7 @@
           class:active={selectedIndex === i}
           on:mouseenter={() => selectedIndex = i}>
           <figure>
-            <img src={`${BASE}/img/${work.imgUrl}`} alt={work.title} />
+            <img src={`/img/${work.imgUrl}`} alt={work.title} />
           </figure>
         </div>
       {/each}
